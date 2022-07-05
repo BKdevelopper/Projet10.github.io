@@ -6,7 +6,7 @@ const AppartementPage = (props) => {
   const navigate = useNavigate()
   const [accommodation, setAccommodation] = useState()
   const IdAppartement = props.items.filter((data) => data.id === id)
-  console.log(IdAppartement)
+  //console.log(IdAppartement)
   useEffect(() => {
     const IdAppartemente = props.items.find((data) => data.id === id)
     IdAppartemente ? setAccommodation(IdAppartemente) : navigate('/404')

@@ -1,4 +1,3 @@
-//function page
 import React, { useState } from 'react'
 function AboutUsPage() {
   const data = [

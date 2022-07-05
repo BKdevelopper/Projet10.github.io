@@ -2,8 +2,7 @@
 import { useFetch } from '../../Utils/hooks'
 import AppartementPage from '../../components/Location'
 import ImageSlider from '../../components/Slider'
-import { Link } from 'react-router-dom'
-import { useNavigate } from 'react-router'
+
 const LocationPage = (props) => {
   const {
     data: items,
